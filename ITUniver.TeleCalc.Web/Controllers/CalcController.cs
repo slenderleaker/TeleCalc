@@ -15,18 +15,17 @@ namespace ITUniver.TeleCalc.Web.Controllers
     {
         private Calc Calc { get; set; }
 
+        private HistoryRepository HistoryRepository { get; set; }
+
+        private OperationRepository OperationRepository { get; set; }
+
         public CalcController()
         {
-            var connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\ituniver\TeleCalc\ITUniver.TeleCalc.Web\App_Data\TeleCalc.mdf;Integrated Security=True";
+            var connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Z:\it\ITUniver.TeleCalc.Web\App_Data\TeleCalcDB.mdf;Integrated Security=True";
             Calc = new Calc();
             HistoryRepository = new HistoryRepository(connString);
             OperationRepository = new OperationRepository(connString);
         }
-
-       private HistoryRepository HistoryRepository { get; set; }
-
-       private OperationRepository OperationRepository { get; set; }
-
 
         [HttpGet]
         public ActionResult Index(string opName, double? x, double? y)

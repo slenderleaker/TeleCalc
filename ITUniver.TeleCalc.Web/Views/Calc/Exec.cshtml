@@ -4,12 +4,6 @@
     ViewBag.Title = "Exec";
 }
 
-
-
-
-
-
-
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
@@ -60,27 +54,45 @@
 }
 
 <script>
+    itUniver = {timerId: 0}
 
-    function calculate() {
-             
+    function check(event) {
+        if (event.keyCode == 8) {
+            if ($(event.target).val().length == 0) {
+                if ($("input[name=InputData]").length > 1) {
+                    $(event.target).prev().focus();
+                    $(event.target).remove();
+                }
+            }
+        }
+    }
+
+    function calculate(timeout) {
+
+        clearTimeout(itUniver.timerId);
+        itUniver.timerId = setTimeout(realCalc, timeout * 100);
+
         var xElement = $("input[name=InputData]").last();
 
         if (xElement.val().endsWith(" ")) {
-            var newInput = $("<input class=\"form-control text-box single-line\" id=\"InputData\" name=\"InputData\" oninput=\"calculate();\" type=\"text\" value=\"\">");
+            xElement.val($.trim(xElement.val()));
+            var newInput = $("<input class=\"form-control text-box single-line\" name=\"InputData\" onkeyup=\"check(event)\" oninput=\"calculate(5);return false;\" type=\"text\" value=\"\">");
             newInput.insertAfter(xElement);
             newInput.focus();
         }
+    }
+
+    function realCalc() {
         $.ajax({
             method: "POST",
             url: "/Calc/Exec",
             data: $('form').serializeArray()
         }).success(
             function (result) {
-                $("#Result").html(result);
-                setTimeout(calculate, 1000, result);
+                $("#result").html(result);
             }
-
         )
+
     }
 
 </script>

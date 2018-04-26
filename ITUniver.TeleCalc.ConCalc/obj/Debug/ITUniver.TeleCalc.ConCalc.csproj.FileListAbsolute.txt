@@ -14,3 +14,6 @@ Z:\un\ITUniver.TeleCalc.ConCalc\bin\Debug\ITUniver.TeleCalc.ConCalc.pdb
 Z:\un\ITUniver.TeleCalc.ConCalc\bin\Debug\ITUniver.TeleCalc.Core.dll
 Z:\un\ITUniver.TeleCalc.ConCalc\bin\Debug\ITUniver.TeleCalc.Core.pdb
 Z:\un\ITUniver.TeleCalc.ConCalc\obj\Debug\ITUniver.TeleCalc.ConCalc.csprojResolveAssemblyReference.cache
+Z:\it\ITUniver.TeleCalc.ConCalc\bin\Debug\ITUniver.TeleCalc.ConCalc.exe.config
+Z:\it\ITUniver.TeleCalc.ConCalc\obj\Debug\ITUniver.TeleCalc.ConCalc.exe
+Z:\it\ITUniver.TeleCalc.ConCalc\obj\Debug\ITUniver.TeleCalc.ConCalc.pdb

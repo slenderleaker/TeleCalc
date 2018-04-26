@@ -216,6 +216,7 @@
     <Content Include="Views\Shared\EditorTemplates\FailDouble.cshtml" />
     <Content Include="Views\Calc\ExecResult.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\Collection.cshtml" />
+    <Content Include="Views\Calc\History.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
