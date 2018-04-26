@@ -1,0 +1,7 @@
+Z:\Univer\Google.TeleCalc.Finance\Google.TeleCalc.Finance\obj\Release\Google.TeleCalc.Finance.csprojResolveAssemblyReference.cache
+Z:\Univer\Google.TeleCalc.Finance\Google.TeleCalc.Finance\bin\Release\Google.TeleCalc.Finance.dll
+Z:\Univer\Google.TeleCalc.Finance\Google.TeleCalc.Finance\bin\Release\Google.TeleCalc.Finance.pdb
+Z:\Univer\Google.TeleCalc.Finance\Google.TeleCalc.Finance\bin\Release\ITUniver.TeleCalc.Core.dll
+Z:\Univer\Google.TeleCalc.Finance\Google.TeleCalc.Finance\bin\Release\ITUniver.TeleCalc.Core.pdb
+Z:\Univer\Google.TeleCalc.Finance\Google.TeleCalc.Finance\obj\Release\Google.TeleCalc.Finance.dll
+Z:\Univer\Google.TeleCalc.Finance\Google.TeleCalc.Finance\obj\Release\Google.TeleCalc.Finance.pdb

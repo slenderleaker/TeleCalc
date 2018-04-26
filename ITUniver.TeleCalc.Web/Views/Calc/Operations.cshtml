@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Operations";
+    var list = ViewBag.operations;
+ }
+
+
+<h2>Operations</h2>
+,<ul class="list-group">
+    @foreach (var item in list)
+    {
+        <li class="list-group-item">
+            @item
+        </li>
+    }
+</ul>

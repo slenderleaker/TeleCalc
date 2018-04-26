@@ -1,0 +1,10 @@
+D:\un\ITUniver.TeleCalc.Core\bin\Debug\ITUniver.TeleCalc.Core.dll
+D:\un\ITUniver.TeleCalc.Core\bin\Debug\ITUniver.TeleCalc.Core.pdb
+D:\un\ITUniver.TeleCalc.Core\obj\Debug\ITUniver.TeleCalc.Core.csprojResolveAssemblyReference.cache
+D:\un\ITUniver.TeleCalc.Core\obj\Debug\ITUniver.TeleCalc.Core.dll
+D:\un\ITUniver.TeleCalc.Core\obj\Debug\ITUniver.TeleCalc.Core.pdb
+Z:\un\ITUniver.TeleCalc.Core\bin\Debug\ITUniver.TeleCalc.Core.dll
+Z:\un\ITUniver.TeleCalc.Core\bin\Debug\ITUniver.TeleCalc.Core.pdb
+Z:\un\ITUniver.TeleCalc.Core\obj\Debug\ITUniver.TeleCalc.Core.csprojResolveAssemblyReference.cache
+Z:\un\ITUniver.TeleCalc.Core\obj\Debug\ITUniver.TeleCalc.Core.dll
+Z:\un\ITUniver.TeleCalc.Core\obj\Debug\ITUniver.TeleCalc.Core.pdb
